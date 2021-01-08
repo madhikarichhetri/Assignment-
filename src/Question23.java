@@ -4,10 +4,8 @@ public class Question23 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int num = input.nextInt();
-        int  sum = 0;
-        for (int count=1; count<=num; count++ ){
-            sum += count;
-        }
-        System.out.println("The sum of "+num+" natural number is: "+ sum);
+        int  sum = (num*(num+1))/2; // sum of natural number is n(n+1)/2
+
+        System.out.println("The sum of "+ num + " natural number is: "+ sum);
     }
 }

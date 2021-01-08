@@ -8,8 +8,8 @@ public class Question22 {
         int num = input.nextInt();
         System.out.println("Table of: " + num);
         System.out.println("-----------------");
-        for (int i=1; i<=10; i++){
-            System.out.println(num + " * " + i + " = " + (num*i));
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " * " + i + " = " + (num * i));
         }
     }
 }

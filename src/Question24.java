@@ -7,8 +7,8 @@ public class Question24 {
         System.out.println("Factorial of: "+num);
         System.out.println("---------------");
         int fact = 1;
-        for (int count = 1; count <= num; count++){
-            fact = fact*count;
+        for (int i = 1; i <= num; i++){
+            fact = fact*i;
         }
         System.out.println("The factorial of: "+num + " is " + fact);
     }
